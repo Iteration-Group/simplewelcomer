@@ -1,0 +1,9 @@
+# A simple lightning strike/smite script:
+
+# the trigger has an event:
+on leftclick with a golden hoe:
+    # a condition:
+    player has the permission "thor"
+    # and some effects:
+    strike lightning at the targeted block
+    broadcast "Fear the mighty Thor!"
